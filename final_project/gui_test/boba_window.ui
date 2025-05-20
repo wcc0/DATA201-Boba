@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+  <class>main_window</class>
+  <widget class="QMainWindow" name="main_window">
+    <property name="geometry">
+      <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>800</width>
+        <height>600</height>
+      </rect>
+    </property>
+    <property name="windowTitle">
+      <string>Boba Shop Management Portal</string>
+    </property>
+    <property name="minimumSize">
+      <size>
+        <width>800</width>
+        <height>600</height>
+      </size>
+    </property>
+    <property name="maximumSize">
+      <size>
+        <width>800</width>
+        <height>600</height>
+      </size>
+    </property>
+    <widget class="QWidget" name="centralwidget">
+      <property name="styleSheet">
+        <string notr="true">
+          background-image: url('image.png');
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: contain; /* Stretch the image */
+        </string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+        <property name="alignment">
+          <set>Qt::AlignCenter</set>
+        </property>
+        <item>
+          <widget class="QLabel" name="label">
+            <property name="font">
+              <font>
+                <family>Lucida Sans Unicode</family>
+                <pointsize>24</pointsize>
+              </font>
+            </property>
+            <property name="alignment">
+              <set>Qt::AlignCenter</set>
+            </property>
+            <property name="text">
+              <string>Management Portal</string>
+            </property>
+            <property name="geometry">
+              <rect>
+                <x>20</x> <!-- 20 pixels to the right -->
+                <y>-50</y> <!-- 50 pixels upwards -->
+                <width>800</width>
+                <height>60</height>
+              </rect>
+            </property>
+          </widget>
+        </item>
+        <item>
+          <widget class="QLabel" name="label_2">
+            <property name="font">
+              <font>
+                <family>Lucida Sans Unicode</family>
+                <pointsize>18</pointsize>
+              </font>
+            </property>
+            <property name="alignment">
+              <set>Qt::AlignCenter</set>
+            </property>
+            <property name="text">
+              <string>Please Select:</string>
+            </property>
+          </widget>
+        </item>
+        <item>
+          <widget class="QPushButton" name="employee_button">
+            <property name="font">
+              <font>
+                <family>Lucida Sans Unicode</family>
+                <pointsize>24</pointsize>
+              </font>
+            </property>
+            <property name="text">
+              <string>Employee Portal</string>
+            </property>
+            <property name="styleSheet">
+              <string notr="true">
+                QPushButton {
+                  background-color: #f0f0f0;
+                  border: 2px solid #a0a0a0;
+                  border-radius: 25px;
+                  padding: 10px 20px;
+                }
+                QPushButton:hover {
+                  background-color: #c0c0c0;  <!-- Darker shade on hover -->
+                }
+                QPushButton:pressed {
+                  background-color: #a0a0a0;  <!-- Even darker shade on press -->
+                }
+              </string>
+            </property>
+          </widget>
+        </item>
+        <item>
+          <widget class="QPushButton" name="manager_button">
+            <property name="font">
+              <font>
+                <family>Lucida Sans Unicode</family>
+                <pointsize>24</pointsize>
+              </font>
+            </property>
+            <property name="text">
+              <string>Manager Portal</string>
+            </property>
+            <property name="styleSheet">
+              <string notr="true">
+                QPushButton {
+                  background-color: #f0f0f0;
+                  border: 2px solid #a0a0a0;
+                  border-radius: 25px;
+                  padding: 10px 20px;
+                }
+                QPushButton:hover {
+                  background-color: #c0c0c0;  <!-- Darker shade on hover -->
+                }
+                QPushButton:pressed {
+                  background-color: #a0a0a0;  <!-- Even darker shade on press -->
+                }
+              </string>
+            </property>
+          </widget>
+        </item>
+        <!-- Exit Button Added Here -->
+        <item>
+          <widget class="QPushButton" name="exit_button">
+            <property name="font">
+              <font>
+                <family>Lucida Sans Unicode</family>
+                <pointsize>24</pointsize>
+              </font>
+            </property>
+            <property name="text">
+              <string>Exit</string>
+            </property>
+            <property name="styleSheet">
+              <string notr="true">
+                QPushButton {
+                  background-color: #f0f0f0;
+                  border: 2px solid #a0a0a0;
+                  border-radius: 25px;
+                  padding: 10px 20px;
+                }
+                QPushButton:hover {
+                  background-color: #c0c0c0;  <!-- Darker shade on hover -->
+                }
+                QPushButton:pressed {
+                  background-color: #a0a0a0;  <!-- Even darker shade on press -->
+                }
+              </string>
+            </property>
+          </widget>
+        </item>
+      </layout>
+    </widget>
+    <widget class="QMenuBar" name="menubar">
+      <property name="geometry">
+        <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>800</width>
+          <height>24</height>
+        </rect>
+      </property>
+    </widget>
+    <widget class="QStatusBar" name="statusbar"/>
+  </widget>
+  <resources/>
+  <connections/>
+</ui>
